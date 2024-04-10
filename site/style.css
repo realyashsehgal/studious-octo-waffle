@@ -1,0 +1,84 @@
+body{
+    margin: 0;;
+}
+
+#Menu{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#container{
+    display: flex;
+}
+#head1{
+    width: 200px;
+    font-size: 35px;
+    background-color: red;
+    float: right;
+    padding: 2px;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    display: flex;
+    justify-content: center;
+}
+#Box1{
+    border: 5px solid black;
+    margin-left: 100px;
+    background-color: grey;
+    height: 250px;
+    width: 500px;
+}
+#content{
+    padding: 15px;
+    clear: right;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#head2{
+    width: 200px;
+    font-size: 35px;
+    background-color: red;
+    float: right;
+    padding: 2px;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    display: flex;
+    justify-content: center;
+}
+#Box2{
+    border: 5px solid black;
+    margin-left: 100px;
+    background-color: grey;
+    height: 250px;
+    width: 500px;
+}
+#content2{
+    padding: 15px;
+    clear: right;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#head3{
+    width: 200px;
+    font-size: 35px;
+    background-color: red;
+    float: right;
+    padding: 2px;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    display: flex;
+    justify-content: center;
+}
+#Box3{
+    border: 5px solid black;
+    margin-left: 100px;
+    background-color: grey;
+    height: 250px;
+    width: 500px;
+}
+#content3{
+    padding: 15px;
+    clear: right;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
