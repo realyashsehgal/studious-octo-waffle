@@ -1,62 +1,46 @@
-header {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    font-style: normal;
-    text-align: center;
-}
-.container-fluid{
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  #logo-img {
+    background: url('../images/restaurant-logo_large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+  }
+  #navbar-brand{
     padding: 25px;
-    background-color: rgb(61, 61, 61);
-    display: flex;
-    flex-wrap: wrap;
-}
-.head1{
-    display: flex;
-    background-color: rgb(181, 50, 50);
-    float: right;
-    border-bottom: 3px solid black;
-    border-left: 3px solid black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    padding: 4px;
-    width: 100px;
-    justify-content: center;
-}
-.box{
-    background-color: grey;
-    margin: 20px;
-    border: 3px solid black;
-    width: 420px;
-    height: 300px;
-}
-.content{
-    clear: right;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    padding: 7px;
-}
-@media screen and (min-width: 973px )and (max-width:1431px){
-    #box3{
-        width:880px
-    }
-}
-
-@media screen and (min-width: 524px )and (max-width:972px){
-    .container-fluid{
-        height: fit-content;
-    }
-    .box{
-        width: max-content;
-        height: fit-content;
-    }
-}
-@media screen and (min-width: 100px )and (max-width:523px){
-    .container-fluid{
-        height: fit-content;
-    }
-    .box{
-        width: max-content;
-        height: fit-content;
-    }
-
-}
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover,.navbar-brand a:focus{
+    text-decoration: none   ;
+  }
+  .navbar-brand p { /* Kosher cert */
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+  }
+  .navbar-brand p span{
+    vertical-align: middle;
+  }
